@@ -22,8 +22,15 @@ a {
 }
 
 .main2 {
+  
+    display: flex;
+    flex-direction: column;
 
-    
+}
+
+
+h2 {
+    text-align: center;
 }
 
 #html,#css,#javascript,#react,#git,#sql {
@@ -119,17 +126,22 @@ button {
 
     font-size: 30px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .follow {
     
     display: flex;
     justify-content: center;
+    margin-left: 40px;
   
-
-    margin: 30px;
+    
+   
+    
     
 }
+
+
 
 footer {
 
