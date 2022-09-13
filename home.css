@@ -16,9 +16,10 @@ a {
 }
 
 .main1 {
+  
+    padding: 50px;
     display: flex;
-    margin-top: 90px;
-    margin-left: 40px;
+    justify-content: center;
 }
 
 .main2 {
@@ -29,8 +30,18 @@ a {
 }
 
 
+.descrizione {
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 70px;
+}
+
 h2 {
     text-align: center;
+    font-size:30px;
 }
 
 #html,#css,#javascript,#react,#git,#sql {
@@ -45,7 +56,8 @@ h2 {
 }
 
 .titolo1 {
-    margin-left: 200px;
+   
+  text-align: center;
 }
 
 .titolo2,.titolo3 {
@@ -53,8 +65,25 @@ h2 {
     text-align: center;
 }
 
-p {
+.desc {
+  
     text-align: center;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+   
+    
+}
+
+li {
+    font-size: 30px;
+    text-decoration: none;
+    
+    
 }
 
 .competenze {
